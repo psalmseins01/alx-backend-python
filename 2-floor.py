@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-
-""" Type-annotated function floor which takes a float n
+""" Type-annotated function floor which takes a float n 
     as an argument and returns the floor of n
 """
 
-from math import floor as fl
+import math
 
 
 def floor(n: float) -> int:
     """ Returns the floor of the n """
-    return fl(n)
+    return math.floor(n)
